@@ -3,4 +3,4 @@ Time Gear animation implemented in HTML and CSS, useable as a screensaver in Ste
 
 ## installation on SteamOS
 quick way: run this command in a terminal in Desktop mode:
-```mkdir ~/.local/share/Steam/config/uioverrides/screensavers && cd ~/.local/share/Steam/config/uioverrides/screensavers && git clone https://github.com/mindcombatant/timegearhtml.git "Time Gear"
+```mkdir ~/.local/share/Steam/config/uioverrides/screensavers && cd ~/.local/share/Steam/config/uioverrides/screensavers && git clone https://github.com/mindcombatant/timegearhtml.git "Time Gear"```
