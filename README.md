@@ -6,3 +6,4 @@ quick way: copy and run this command in a terminal in Desktop mode:
 ```
 mkdir ~/.local/share/Steam/config/uioverrides/screensavers && cd ~/.local/share/Steam/config/uioverrides/screensavers || cd ~/.local/share/Steam/config/uioverrides/screensavers && git clone https://github.com/mindcombatant/timegearhtml.git "timegear"
 ```
+then you can find the new screensaver in settings under customization!
