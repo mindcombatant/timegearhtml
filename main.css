@@ -1,0 +1,139 @@
+body { background-color: black; }
+svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.post {
+  fill: #64ff64;
+}
+.spoke {
+  fill: #64ff64;
+  transform-origin: center;
+  animation: spoketurn 4s linear infinite;
+}
+.gearmain {
+  transform-origin: center;
+  animation: gearturn 4s linear infinite;
+}
+.gearspearshafts {
+  transform-origin: center;
+  animation: gearturn 4s linear infinite;
+}
+.gearspeartips {
+  transform-origin: center;
+  animation: gearturn 4s linear infinite;
+}
+.gearlines {
+  transform-origin: center;
+  animation: housingturn 2s linear infinite;
+}
+.housing {
+  transform-origin: center;
+  animation: housingturn 3.333333333333333s linear infinite;
+}
+@keyframes postturn {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+@keyframes housingturn {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spoketurn {
+  0% { transform: rotate(6deg); }
+  4.1666666666666% { transform: rotate(0deg); }
+  8.3333333333333% { transform: rotate(36deg); }
+  12.5% { transform: rotate(30deg); }
+  16.6666666666666% { transform: rotate(66deg); }
+  20.8333333333333% { transform: rotate(60deg); }
+  25% { transform: rotate(96deg); }
+  29.1666666666666% { transform: rotate(90deg); }
+  33.3333333333333% { transform: rotate(126deg); }
+  37.5% { transform: rotate(120deg); }
+  41.6666666666666% { transform: rotate(156deg); }
+  45.8333333333333% { transform: rotate(150deg); }
+  50% { transform: rotate(186deg); }
+  54.1666666666666% { transform: rotate(180deg); }
+  58.3333333333333% { transform: rotate(216deg); }
+  62.5% { transform: rotate(210deg); }
+  66.6666666666666% { transform: rotate(246deg); }
+  70.8333333333333% { transform: rotate(240deg); }
+  75% { transform: rotate(276deg); }
+  79.1666666666666% { transform: rotate(270deg); }
+  83.3333333333333% { transform: rotate(306deg); }
+  87.5% { transform: rotate(300deg); }
+  91.6666666666666% { transform: rotate(336deg); }
+  95.8333333333333% { transform: rotate(330deg); }
+  100% { transform: rotate(366deg); }
+}
+@keyframes gearturn {
+  0% { transform: rotate(-6deg); }
+  4.1666666666666% { transform: rotate(0deg); }
+  8.3333333333333% { transform: rotate(-36deg); }
+  12.5% { transform: rotate(-30deg); }
+  16.6666666666666% { transform: rotate(-66deg); }
+  20.8333333333333% { transform: rotate(-60deg); }
+  25% { transform: rotate(-96deg); }
+  29.1666666666666% { transform: rotate(-90deg); }
+  33.3333333333333% { transform: rotate(-126deg); }
+  37.5% { transform: rotate(-120deg); }
+  41.6666666666666% { transform: rotate(-156deg); }
+  45.8333333333333% { transform: rotate(-150deg); }
+  50% { transform: rotate(-186deg); }
+  54.1666666666666% { transform: rotate(-180deg); }
+  58.3333333333333% { transform: rotate(-216deg); }
+  62.5% { transform: rotate(-210deg); }
+  66.6666666666666% { transform: rotate(-246deg); }
+  70.8333333333333% { transform: rotate(-240deg); }
+  75% { transform: rotate(-276deg); }
+  79.1666666666666% { transform: rotate(-270deg); }
+  83.3333333333333% { transform: rotate(-306deg); }
+  87.5% { transform: rotate(-300deg); }
+  91.6666666666666% { transform: rotate(-336deg); }
+  95.8333333333333% { transform: rotate(-330deg); }
+  100% { transform: rotate(-366deg); }
+}
+.post0 {
+    transform-origin: center;
+    animation: postturn 10s linear infinite;
+}
+.post1 {
+    transform-origin: center;
+    animation: postturn 5s linear infinite;
+}
+.post2 {
+    transform-origin: center;
+    animation: postturn 3.333333333333333s linear infinite;
+}
+.post3 {
+    transform-origin: center;
+    animation: postturn 2.5s linear infinite;
+}
+.post4 {
+    transform-origin: center;
+    animation: postturn 2s linear infinite;
+}
+.post5 {
+    transform-origin: center;
+    animation: postturn 10s linear infinite;
+}
+.post6 {
+    transform-origin: center;
+    animation: postturn 5s linear infinite;
+}
+.post7 {
+    transform-origin: center;
+    animation: postturn 3.333333333333333s linear infinite;
+}
+.post8 {
+    transform-origin: center;
+    animation: postturn 2.5s linear infinite;
+}
+.post9 {
+    transform-origin: center;
+    animation: postturn 2s linear infinite;
+}
